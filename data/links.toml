@@ -1,0 +1,20 @@
+# 友链配置：在此添加/修改友链
+# hue: 卡片头像底色的色相（0-360，随便填个好看的数字）
+[[links]]
+    name = "Hugo"
+    url = "https://gohugo.io/"
+    desc = "驱动本站的静态站点引擎"
+    hue = 210
+
+[[links]]
+    name = "Stack 主题"
+    url = "https://stack.jimmycai.com/"
+    desc = "本站使用的 Hugo 主题"
+    hue = 260
+
+# 模板示例（复制后修改）：
+# [[links]]
+#     name = "某某的博客"
+#     url = "https://example.com/"
+#     desc = "一句话简介"
+#     hue = 160

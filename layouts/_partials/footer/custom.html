@@ -1,0 +1,5 @@
+{{/* 赛博特效：代码雨 / 点击爆裂 / 打字机 / 进度条 / 返回顶部（经 minify + 指纹缓存） */}}
+{{ with resources.Get "js/cyber-effects.js" }}
+    {{ $js := . | minify | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}

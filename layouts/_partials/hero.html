@@ -1,0 +1,12 @@
+{{/* 首页全屏欢迎页：背景图 + 站名 + 标语 + 下拉箭头 */}}
+<section class="hero-banner" aria-label="欢迎页">
+    <div class="hero-content">
+        <h1 class="hero-title">{{ .Site.Title }}</h1>
+        <p class="hero-subtitle">{{ .Site.Params.sidebar.subtitle }}</p>
+    </div>
+    <a class="hero-scroll-down" href="#main-content" aria-label="向下滚动">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+    </a>
+</section>

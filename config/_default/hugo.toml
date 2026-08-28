@@ -1,0 +1,31 @@
+baseURL = "https://3133q.github.io/"
+title = "Vortex's Blog"
+theme = "hugo-theme-stack"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+[pagination]
+    pagerSize = 5
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+[outputs]
+    home = ["HTML", "RSS"]
+
+[related]
+    includeNewer = true
+    threshold = 60
+    [[related.indices]]
+        name = "categories"
+        type = "basic"
+        weight = 100
+    [[related.indices]]
+        name = "tags"
+        type = "basic"
+        weight = 80
+    [[related.indices]]
+        name = "keywords"
+        type = "basic"
+        weight = 60

@@ -1,0 +1,17 @@
+{{/* 本地字体：JetBrains Mono（代码/等宽），避免外链 Google Fonts 国内卡顿 */}}
+{{ $fonts := slice
+    (dict "family" "JetBrains Mono" "style" "normal" "weight" "400" "file" "jetbrains-mono-latin-400-normal.woff2")
+    (dict "family" "JetBrains Mono" "style" "italic" "weight" "400" "file" "jetbrains-mono-latin-400-italic.woff2")
+    (dict "family" "JetBrains Mono" "style" "normal" "weight" "700" "file" "jetbrains-mono-latin-700-normal.woff2")
+}}
+<style>
+    {{- range $fonts }}
+    @font-face {
+        font-family: "{{ .family }}";
+        font-style: {{ .style }};
+        font-weight: {{ .weight }};
+        font-display: swap;
+        src: url("{{ printf "fonts/%s" .file | relURL }}") format("woff2");
+    }
+    {{- end }}
+</style>
