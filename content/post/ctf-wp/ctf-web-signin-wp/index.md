@@ -1,6 +1,6 @@
 ---
-title: "示例：Web 签到题 WriteUp"
-description: "一篇示例 CTF WriteUp，展示代码块、公式和图片的写法"
+title: "入门 Web 签到题：SQL 注入基础利用"
+description: "一道入门级 Web 签到题复盘，演示万能密码与 UNION 注入的最小化利用流程"
 date: 2026-08-23T20:00:00+08:00
 slug: "ctf-web-signin-wp"
 image: ""
