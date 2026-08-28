@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3133q.github.io/sitemap.xml

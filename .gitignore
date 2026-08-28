@@ -5,3 +5,7 @@ node_modules/
 scripts/.venv/
 scripts/.edge-profile*/
 scripts/*.png
+
+# 临时 / 私有笔记
+更新.txt
+网址.txt

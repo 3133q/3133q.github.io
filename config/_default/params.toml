@@ -1,6 +1,7 @@
 mainSections   = ["post"]
 rssFullContent = true
 favicon        = "/img/avatar.png"
+description    = "Vortex 的个人博客，记录 CTF 比赛复盘、二进制 PWN 与 Web 安全学习笔记、堆栈溢出 / 栈迁移 / ret2dlresolve 等专题整理。"
 
 [hero]
     enabled       = true
@@ -63,6 +64,8 @@ favicon        = "/img/avatar.png"
         loading          = "lazy"
 
 [opengraph]
+    image = "/img/hero.jpg"
+    locale = "zh_CN"
     [opengraph.twitter]
         site = ""
         card = "summary_large_image"
